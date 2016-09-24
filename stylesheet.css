@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+		font: 16px, Arial, sans-serif;
+		line-height: 20px;
+}
+
+.main{
+			clear: both;
+}
+
+.clear{
+			clear: both;
+}
+
+#main{
+			width: 800px; 
+			margin: 40px auto 60px; 
+}
+
+#pic { 
+		float: right; 
+		margin: -20px 40px;
+}
+
+img{
+		width: 180px;
+		height: 220px;
+		border-width: 10px;
+		border-style: solid;
+		border-color: lightgrey;
+		transform: rotate(-3deg);
+}
+
+h1 { 
+		text-align: center;
+		margin: 0 0 16px 0; 
+		padding: 0 0 16px 0; 
+		font-size: 40px; 
+		font-weight: bold; 
+		letter-spacing: -2px; 
+		border-bottom: 1px solid #999999; 
+}
+
+h2 { 
+		font-size: 20px; 
+		margin: 0 0 5px 0;
+		position: relative;
+		right: 370px;
+		
+}
+
+h3{
+		margin: 0 0 5px 0;
+		position: relative;
+		right: 360px;
+}
+
+h4{
+		margin: 10px 0 5px 0;
+		position: relative;
+		right: 360px;
+		top: 5px;
+}
+
+dl h2{
+		margin: 0 0 5px 5px;
+}
+
+div p{
+		text-align: center;
+}
+
+p { 
+		margin: 0 0 16px 0; 
+}
+
+div div p{
+			font-size: 26px;
+}
+
+a { 
+		color: #999999;
+		text-decoration: none; 
+		border-bottom: 1px solid #999999;
+}
+        
+a:hover {
+			border-bottom-style: solid; 
+			color: blue;
+}
+       
+ul {
+		margin: 0 0 30px 15px;	
+		right: 370px;
+}
+
+li:first-child{
+				position: relative;
+				right: 360px;
+				top: 10px;
+} 
+
+li:nth-child(2){
+				position: relative;
+				right: 360px;
+				top: 10px;
+}  
+
+li:nth-child(3){
+				position: relative;
+				right: 360px;
+				top: 10px;
+}
+
+li:nth-child(4){
+				position: relative;
+				right: 360px;
+				top: 10px;
+}
+
+dt {	
+		font-style: italic; 
+		font-weight: bold; 
+		font-size: 20px; 
+		text-align: right;
+		margin: 15px 0 0 200px;
+		padding: 0 24px 0 0; 
+		width: 150px; 
+		float: left;
+		height: 100px; 
+		border-right: 1px solid #999999;  
+}
+
+dd { 
+		width: 600px; 
+		float: right; 
+}
+
+dd.main{
+			float: none;
+			margin: 0;
+			height: 0px;
+}   
+  
+dd.clear { 
+			float: none;
+			margin: 0; 
+			height: 20px; 
+}
+
+#intro{
+			width: 500px;
+			margin: 0 0 100px 275px;
+			font-size: 20px;
+}
+
+#intro p { 
+			font-family: Georgia, serif; 
+			font-style: italic; 
+			color: #666; }
